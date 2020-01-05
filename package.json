@@ -4,7 +4,9 @@
   "description": "Portfolio project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server",
+    "react": "cd client && npm start",
+    "start": "echo hello"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   "homepage": "https://github.com/hwoongkang/paiiek_#readme",
   "dependencies": {
     "concurrently": "^5.0.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
   }
 }

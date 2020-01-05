@@ -16,12 +16,11 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <body style={bodyStyle}>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/design" component={Design} />
-          <Route path="/sound" component={Sound} />
-        </body>
+
+        <Route style={bodyStyle} exact path="/" component={Home} />
+        <Route style={bodyStyle} path="/about" component={About} />
+        <Route style={bodyStyle} path="/design" component={Design} />
+        <Route style={bodyStyle} path="/sound" component={Sound} />
       </Router>
     </div>
   );
