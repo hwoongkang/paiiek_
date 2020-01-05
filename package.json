@@ -1,0 +1,27 @@
+{
+  "name": "paiiek",
+  "version": "1.0.0",
+  "description": "Portfolio project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwoongkang/paiiek_.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mysql"
+  ],
+  "author": "Hyunwoong Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwoongkang/paiiek_/issues"
+  },
+  "homepage": "https://github.com/hwoongkang/paiiek_#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
