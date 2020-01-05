@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/hwoongkang/paiiek_#readme",
   "dependencies": {
+    "concurrently": "^5.0.2",
     "express": "^4.17.1"
   }
 }
