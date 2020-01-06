@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .App-header {
@@ -11,6 +12,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
