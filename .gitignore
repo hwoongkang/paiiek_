@@ -3,3 +3,7 @@ node_modules/
 build/
 
 *.log
+
+# images
+client/public/img/*
+!client/public/img/.gitkeep
