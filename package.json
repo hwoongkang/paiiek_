@@ -6,7 +6,7 @@
   "scripts": {
     "server": "nodemon server",
     "react": "cd client && npm start",
-    "start": "echo hello"
+    "both": "concurrently \"npm run server\" \"npm run react\""
   },
   "repository": {
     "type": "git",
