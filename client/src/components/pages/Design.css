@@ -1,0 +1,39 @@
+@keyframes slideDown {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceUp {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes bounceDown {
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+img {
+    border-radius: 8px;
+    
+    animation: 1s ease-out 0s 1 slideDown;
+    
+}
+
+img:hover{
+    animation: 0.5s bounceDown ease-in infinite alternate,
+    0.5s bounceUp ease-out infinite alternate;
+}

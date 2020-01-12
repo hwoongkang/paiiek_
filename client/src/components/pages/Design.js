@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import './Design.css'
 //import test from './oneAndAHalf_physical_1.jpeg'
 
 const Design = () => {

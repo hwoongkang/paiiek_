@@ -7,3 +7,5 @@ build/
 # images
 client/public/img/*
 !client/public/img/.gitkeep
+
+db/
