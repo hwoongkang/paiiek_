@@ -4,6 +4,7 @@ import './Design.css'
 
 const Design = () => {
   const [designs, setDesigns] = useState([]);
+  
 
   useEffect(() => {
     fetch("/api/designs")
@@ -24,7 +25,7 @@ const Design = () => {
         ))}
       </p>
       <p>
-        <img
+        <img        
           src="/img/oneAndAHalf_physical_1.jpeg"
           className="test"
           alt="test failed"
@@ -33,5 +34,4 @@ const Design = () => {
     </div>
   );
 };
-
 export default Design;
