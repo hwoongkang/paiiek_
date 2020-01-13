@@ -6,7 +6,9 @@
   "scripts": {
     "server": "nodemon server",
     "react": "cd client && npm start",
-    "both": "concurrently \"npm run server\" \"npm run react\""
+    "python": "cd db && python3 db_init.py",
+    "both0": "concurrently \"npm run server\" \"npm run react\"",
+    "both": "concurrently \"npm run react\" \"npm run python\""
   },
   "repository": {
     "type": "git",

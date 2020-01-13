@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Design.css'
 //import test from './oneAndAHalf_physical_1.jpeg'
+import AddDesign from './AddDesign'
 
 const Design = () => {
   const [designs, setDesigns] = useState([]);
@@ -24,6 +25,9 @@ const Design = () => {
           </li>
         ))}
       </p>
+      
+      <AddDesign/>
+      
       <p>
         <img        
           src="/img/oneAndAHalf_physical_1.jpeg"

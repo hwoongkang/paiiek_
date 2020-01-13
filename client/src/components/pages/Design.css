@@ -1,7 +1,7 @@
 @keyframes slideDown {
     0% {
-        transform: translateY(-20px);
-        opacity: 0;
+        transform: translateY(-10px);
+        opacity: 0.3;
     }
     100% {
         transform: translateY(0);
@@ -29,8 +29,10 @@
 img {
     border-radius: 8px;
     
-    animation: 1s ease-out 0s 1 slideDown; 
+    animation: 0.5s ease-out 0s 1 slideDown; 
     
+    width: 70%;
+    height: auto;
 }
 
 img:hover{

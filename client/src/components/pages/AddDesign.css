@@ -1,0 +1,18 @@
+form {
+    border-color: #000;
+    border-radius: 10px;
+}
+
+select {
+    border-color: #111;
+    border-radius: 5px;
+    background-color: #eee;
+    text-align: center;
+}
+
+input {
+    border-color: #000;
+    border-radius: 5px;
+    text-align: right;
+    padding: 3px;
+}
